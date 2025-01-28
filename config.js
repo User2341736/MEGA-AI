@@ -6,7 +6,7 @@ import fs from 'fs'
 import dotenv from 'dotenv'
 dotenv.config()
 
-const defaultOwner = '923444844060';
+const defaultOwner = '263775614627';
 
 
 // Check for the OWNERS environment variable; if not found, use the default
@@ -20,12 +20,12 @@ for (let i = 0; i < ownerlist.length; i++) {
 }
 //
 global.botname = process.env.BOTNAME || 'MEGA-AI';
-global.pairingNumber = process.env.BOT_NUMBER || '' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.pairingNumber = process.env.BOT_NUMBER || '263775614627' ;  // put your number here
+global.SESSION_ID = process.env.SESSION_ID || 'KJIWzSrD#JQfl4Smn_EgARcvWmdIXlQH2TXUmGFRMprDwYzx2N0A' ;  // put your session id here
 
 global.mods = []
 global.prems = []
-global.allowed = ['923444844060', '923051391007']
+global.allowed = ['263775614627', '263719929859']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
@@ -42,7 +42,7 @@ global.keysneoxrrr = ['5VC9rvNx', 'cfALv5']
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())]
 global.lolkeysapi = ['GataDios']
 
-global.canal = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.canal = 'https://whatsapp.com/channel/0029ValhnEtDeON9xtZzVc0i'
 
 
 global.APIs = {
@@ -77,7 +77,7 @@ global.packname = 'MEGA-AI'
 global.author = 'GlobalTechInfo'
 global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
-global.dygp = 'https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07'
+global.dygp = 'https://whatsapp.com/channel/0029ValhnEtDeON9xtZzVc0i'
 global.fgsc = 'https://github.com/GlobalTechInfo/MEGA-AI'
 global.fgyt = 'https://youtube.com/@GlobalTechInfo'
 global.fgpyp = 'https://youtube.com/@GlobalTechInfo'
