@@ -10,7 +10,7 @@
     "OWNERS": {
       "description": "owner number",
       "required": true,
-      "value": ""
+      "value": "263775614627"
     },
     "BOTNAME": {
       "description": "Give your BOT a name",
@@ -35,7 +35,7 @@
     "PREFIX": {
       "description": "put any one symbol here except @ and + , leave it Blank if you want to use multiple prefix",
       "required": false,
-      "value": ""
+      "value": "."
     },
      "HKEY": {
       "description": "Put your Heroku api key Here , Get one from here https://dashboard.heroku.com/account",
@@ -89,8 +89,8 @@
     },
     "OWNER_NAME": {
       "description": "your owner Name",
-      "required": false,
-      "value": ""
+      "required": true,
+      "value": "T.TECH"
     },
      "REMOVEBG_KEY": {
       "description": "your Remove background api key",
