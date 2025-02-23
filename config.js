@@ -21,7 +21,7 @@ for (let i = 0; i < ownerlist.length; i++) {
 //
 global.botname = process.env.BOTNAME || 'DON-AI';
 global.pairingNumber = process.env.BOT_NUMBER || '263719929859' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || 'qUYz3ZoT#s5qoZ1OBX3iZhLtc0qh-TlEyjEKicjsQEDcbzFxMOsA' ;  // put your session id here
+global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
 
 global.mods = []
 global.prems = []
@@ -73,9 +73,9 @@ global.APIKeys = {
 
 // Sticker WM
 global.premium = 'true'
-global.packname = 'MEGA-AI'
-global.author = 'GlobalTechInfo'
-global.menuvid = 'https://i.imgur.com/2U2K9YA.mp4'
+global.packname = 'DON-AI'
+global.author = 'T.TECH DON'
+global.menuvid = 'https://i.imgur.com/0T6U9wm.jpeg'
 global.igfg = ' Follow on Instagram\nhttps://www.instagram.com/global.techinfo'
 global.dygp = 'https://whatsapp.com/channel/0029ValhnEtDeON9xtZzVc0i'
 global.fgsc = 'https://github.com/GlobalTechInfo/MEGA-AI'
