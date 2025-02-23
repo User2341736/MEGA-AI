@@ -7,9 +7,9 @@ const { levelling } = '../lib/levelling.js'
 import moment from 'moment-timezone'
 import { promises } from 'fs'
 import { join } from 'path'
-const OwnerName = process.env.OWNER_NAME || 'QASIM ALI';
-const BOTNAME = process.env.BOTNAME || 'MEGA-AI';
-const timeZone = process.env.TIME_ZONE || 'Asia/Karachi';
+const OwnerName = process.env.OWNER_NAME || 'DON AI';
+const BOTNAME = process.env.BOTNAME || 'T.TECH DON-AI';
+const timeZone = process.env.TIME_ZONE || 'Africa/Zimbabwe';
 const time = moment.tz(timeZone).format('HH');
 let wib = moment.tz(timeZone).format('HH:mm:ss');
 
@@ -89,7 +89,7 @@ let str = `
 ◈├• *ownermenu*
 ◈├• *setprivacy*
 ◈╰─♪♪─★─☆──♪♪─❍
-© *GlobalTechInfo*
+© *T.TECH DON 2025-2099*
 
 > 💡 *_Remember, when in doubt, use ${usedPrefix}listmenu or ${usedPrefix}help It's like my magic spell book!_* 💡
 `
@@ -116,7 +116,7 @@ function clockString(ms) {
     return [h, m, s].map(v => v.toString().padStart(2, 0)).join(':')}
     
     function ucapan() {
-      const time = moment.tz('Asia/Karachi').format('HH')
+      const time = moment.tz('Africa/Zimbabwe').format('HH')
       let res = "happy early in the day☀️"
       if (time >= 4) {
         res = "Good Morning 🌄"
