@@ -21,10 +21,10 @@ for (let i = 0; i < ownerlist.length; i++) {
 //
 global.botname = process.env.BOTNAME || 'DON-AI';
 global.pairingNumber = process.env.BOT_NUMBER || '263719929859' ;  // put your number here
-global.SESSION_ID = process.env.SESSION_ID || '' ;  // put your session id here
+global.SESSION_ID = process.env.SESSION_ID || 'icQygTpC#UhtnV_1qvW8xmaTrhGPGmmYYXNhJ3681u-2v7cjjegc' ;  // put your session id here
 
-global.mods = []
-global.prems = []
+global.mods = ['263719929859']
+global.prems = ['263719929859']
 global.allowed = ['263775614627', '263719929859']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
